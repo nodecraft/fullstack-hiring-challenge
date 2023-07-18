@@ -1,40 +1,29 @@
-# ⚡ Vite + Vue 3 + Tailwind CSS ✔
+# Nodecraft Fullstack Frontend Hiring Challenge
 
-![Vite, Vue, Tailwind CSS](https://user-images.githubusercontent.com/11320080/111277027-a9384c00-8640-11eb-8323-21889bd7c609.png)
+## Introduction
+This repository is a basic Vue 3 & Tailwind frontend project. It's built using Vite to build and run the project.
 
-This starter template includes:
+1. Privately fork this repository
+2. Run `npm ci` to install dependencies.
 
-- [Vite](https://vitejs.dev/guide/)
-- [Vue 3](https://vuejs.org/guide/introduction.html)
-- [Tailwind CSS v3](https://tailwindcss.com/docs/configuration)
-- [Vue Router v4](https://github.com/vuejs/router)
-- [Inter var font](https://github.com/rsms/inter) (self-hosted, woff2, v3.19, with 'preload' attr, check out index.html)
-- [Headless UI](https://headlessui.dev/vue/menu) - unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS
-- [Heroicons](https://github.com/tailwindlabs/heroicons#vue) - beautiful hand-crafted SVG icons,
-by the makers of Tailwind CSS
-- [prettier-plugin-tailwindcss](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) - Automatic Class Sorting with Prettier
+## Development
 
-First-party plugins needed for Tailwind UI:
+Run `npm run dev` to start the development server. This uses `vite --host` to buid and run a dev server.
 
-- [tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
-- [tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
-- [tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
-- [tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
+## Challenges
 
-### Getting Started
+There are some issues with this project that need to be investigated and fixed. Each issue has many possible solutions, and we're interested in seeing how you approach them.
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/web2033/vite-vue3-tailwind-starter)
+Must complete all of these challenges:
 
-```sh
-npx degit web2033/vite-vue3-tailwind-starter vvt-app
-cd vvt-app
-```
+- [ ] Fix any functional issues with the component that don’t match Vue 3 Component standards and best  pracices outline on the Vue 3 Docs.
+- [ ] Fix the dropdown menu from remaining open always after a hero selection is made.
+- [ ] Ensure all hero stats equal a sum of `20` plus the current amount of bonus. This total should never be above `25` with the bonus included.
+- [ ] Add keyboard controls for the drop down hero select button and menu item to be accessible
+- [ ] Fix the image so it matches the rounding of its container and doesn’t change width/height when it changes
 
-```sh
-npm i
-npm run dev
-npm run build
-npm run serve
-```
+Please complete at least 2 of these additional challenges:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/web2033/vite-vue3-tailwind-starter)
+- [ ] Implement a "clear hero" feature after a hero selection is made, to return to the default `null` state.
+- [ ] Fix the style so the Selection button doesn’t break line and takes up empty space from the Bonus Button. The fix should not allow the text to overflow into sibling elements
+- [ ] Make the box centered on the page using just TailwindCSS and a css flex-based solution.
