@@ -131,7 +131,7 @@ dist
 
 .DS_Store
 /target
-/dist
+dist
 **/*.rs.bk
 Cargo.lock
 bin/
@@ -143,4 +143,4 @@ node_modules/
 .env
 .dev.vars
 .mf
-/.wrangler
+/fullstack/.wrangler
