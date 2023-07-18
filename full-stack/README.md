@@ -3,8 +3,7 @@
 ## Introduction
 This repository is a very simple example of a [Cloudflare Pages](https://pages.cloudflare.com/) project. It is orchestrated using [`wrangler`](https://developers.cloudflare.com/workers/wrangler/).
 
-1. Privately fork this repository
-2. Install the [Wrangler CLI](https://developers.cloudflare.com/pages/platform/direct-upload/#wrangler-cli) and follow its onboarding for Cloudflare Pages
+Install the [Wrangler CLI](https://developers.cloudflare.com/pages/platform/direct-upload/#wrangler-cli) and follow its onboarding for Cloudflare Pages
 
 - The "API" for this project consists of a single endpoint, `/api/users` that returns a list of users. It defaults to 10, but can be increased by setting the `maxUsers` query param.
 - The frontend for this project is a single index.html file, with an attached `index.js` file. This queries the endpoint, and then renders the results.

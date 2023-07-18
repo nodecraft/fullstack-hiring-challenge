@@ -3,8 +3,7 @@
 ## Introduction
 This repository is a basic Vue 3 & Tailwind frontend project. It's built using Vite to build and run the project.
 
-1. Privately fork this repository
-2. Run `npm ci` to install dependencies.
+Run `npm ci` to install dependencies.
 
 ## Development
 
