@@ -13,3 +13,4 @@ tailwindcss - https://tailwindcss.com/docs/installation
 resource - Using Vue in Visual Studio Code and enabled the Vetur extension.
 Creating a worker in my-worker from https://github.com/cloudflare/worker-template-router
 ✨ Success!
+Cloudflare account documentation - https://dash.cloudflare.com/64dfafcdf883e0677946f81845a7e672/pages/view/fullstack-hiring-challenge
