@@ -20,4 +20,4 @@ Using Wrangler CLI
 ✨ Deployment complete! Take a peek over at https://c1735a13.fullstack-hiring-challenge-9fm.pages.dev
 
 annie@Rainbow36 MINGW64 ~/OneDrive/Desktop/Fullstack-Challenge/fullstack-hiring-challenge (main)
-
+Cloudflare deployment - https://c1735a13.fullstack-hiring-challenge-9fm.pages.dev/
