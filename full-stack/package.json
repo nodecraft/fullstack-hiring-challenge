@@ -25,20 +25,20 @@
 		"lint:js:fix": "npm run lint:js -- --fix"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20230717.0",
-		"@nodecraft/eslint-config": "27.0.0",
-		"@typescript-eslint/eslint-plugin": "6.1.0",
-		"@typescript-eslint/parser": "6.1.0",
-		"eslint": "8.45.0",
-		"eslint-plugin-import": "2.27.5",
+		"@cloudflare/workers-types": "4.20240320.1",
+		"@nodecraft/eslint-config": "34.0.1",
+		"@typescript-eslint/eslint-plugin": "7.4.0",
+		"@typescript-eslint/parser": "7.4.0",
+		"eslint": "8.57.0",
+		"eslint-plugin-import": "2.29.1",
 		"eslint-plugin-json": "3.1.0",
 		"eslint-plugin-node": "11.1.0",
-		"eslint-plugin-unicorn": "48.0.0",
-		"typescript": "5.1.6",
-		"wrangler": "3.3.0"
+		"eslint-plugin-unicorn": "51.0.1",
+		"typescript": "5.4.3",
+		"wrangler": "3.39.0"
 	},
 	"engines": {
-		"node": ">=18",
+		"node": ">=20",
 		"npm": ">=8"
 	}
 }

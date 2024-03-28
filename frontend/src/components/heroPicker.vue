@@ -64,9 +64,10 @@
 </template>
 
 <script setup lang="ts">
-import {ref} from 'vue';
-import type {PropType} from 'vue';
-import type {Hero} from '../types';
+import { ref } from 'vue';
+
+import type { Hero } from '../types';
+import type { PropType } from 'vue';
 const props = defineProps({
 	value: Object as PropType<Hero | null>,
 	options: Array as PropType<Hero[]>,
