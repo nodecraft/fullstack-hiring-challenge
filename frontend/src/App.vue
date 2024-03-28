@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import {ref} from 'vue';
+import { ref } from 'vue';
 
 import heroPicker from './components/heroPicker.vue';
-import type {Hero} from './types';
-
 import AchillesAvatar from '../public/heros/achilles.png';
-import OdysseusAvatar from '../public/heros/odysseus.png';
 import HerculesAvatar from '../public/heros/hercules.png';
+import OdysseusAvatar from '../public/heros/odysseus.png';
+
+import type { Hero } from './types';
 
 const heros = ref<Hero[]>([
 	{
@@ -35,7 +35,7 @@ const hero = ref<Hero | null>(null);
 
 let bonus = ref(0);
 function doBonus() {
-	if(bonus > 5) {
+	if (bonus > 5) {
 		return alert('Only 5 bonus allowed!');
 	}
 	bonus++; // increase bonus!
